@@ -28,6 +28,6 @@ func main() {
 	  return;
   }
   if r, ok := dic[strings.ToUpper(os.Args[1])]; ok {
-    fmt.Print(r)
+    fmt.Println(r)
   }
 }
