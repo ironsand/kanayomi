@@ -9,7 +9,7 @@ You need to clone the repository and compile it.
 git clone https://github.com/ironsand/kanayomi.git
 cd kanayomi
 go build -o kanayomi main.go bep_dic.go
-mv kanayomi /usr/local/bin
+sudo mv kanayomi /usr/local/bin/
 ```
 Change `/usr/local/bin` suitable for your environments.
 
